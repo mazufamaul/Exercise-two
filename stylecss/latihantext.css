@@ -1,0 +1,206 @@
+ /* latihan 1 */
+ .tahoma{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* latihan 2 */
+.title-verdana{
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.sub-title-verdana{
+    font-size: 15px;
+    font-family: Verdana;
+    color: rgb(177, 172, 172);
+    margin-bottom: 10px;
+}
+
+.desc-verdana{
+    font-size: 15px;
+    font-family: Verdana;
+    width: 280px;
+    margin-bottom: 20px;
+
+}
+
+.getstarted {
+    background-color: rgb(2, 94, 2);
+    color: white;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.getstarted:hover{
+    opacity: 0.9;
+}
+
+
+
+/* latihan 3 */
+
+.title-arial{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sub-title-arial{
+    font-family: Arial;
+    color: red;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* latihan 4*/
+.title-bussines{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sub-title-bussines{
+    font-family: Arial;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.sub-three-title-bussines{
+    font-size: 13px;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(39, 144, 230);
+    cursor: pointer;
+
+}
+.sub-three-title-bussines:hover{
+    opacity: 0.7;
+}
+
+
+.mackbook-one{
+    font-family: Arial;
+    color: rgb(211, 137, 0);
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mackbook-two{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.mackbook-three{
+    font-size: 27px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.mackbook-four{
+    font-family: Arial;
+    color: rgb(156, 148, 148);
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+.mackbook-buy-button-1{
+    text-align: center;
+}
+
+.mackbook-buy-button-2{
+    color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(12, 89, 231, 0.692);
+    cursor: pointer;
+}
+
+.lima-f-1{
+    font-size: 25px;
+    font-family: Arial;
+    margin-bottom: 10px;
+}
+.lima-f-2{
+    font-size: 13px;
+    font-family: Arial;
+    color: grey;
+}
+
+.lima-f-3{
+    font-size: 13px;
+    font-family: Arial;
+    color: rgb(16, 158, 16);
+    margin-bottom: 8px;
+}
+.lima-f-4{
+    font-size: 14px;
+    font-family: Arial;
+    color: grey;
+}
+
+.lima-f-5{
+    color: rgb(238, 14, 14);
+}
+
+
+.freecode-1{
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.freecode-2{
+    font-family: Arial;
+    color: gray;
+    font-weight: normal;
+}
+
+.freecode-3{
+    font-size: 15px;
+    font-family: Arial;
+    width: 470px;
+    margin-bottom: 10px;
+}
+
+.freecode-4{
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.freecode-5{
+    color: rgb(20, 148, 253);
+    cursor: pointer;
+}

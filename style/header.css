@@ -1,0 +1,231 @@
+.header{
+    font-family: Roboto,Arial;
+    font-size: 13px;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-color: rgb(212, 212, 212);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.leftside{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 253, 253);
+    width: 67px;
+    bottom: 0px;
+    left: 0px;
+    top: 60px;
+    position: fixed;
+    z-index: 200;
+    padding-top: 4px;
+   
+}
+
+.home{
+
+    width: 70px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    transition: 30ms;
+}
+.home:hover{
+    background-color: rgba(202, 197, 197, 0.493);
+    cursor: pointer;
+}
+
+
+
+
+.left-logo{
+    width: 30px;
+    height: 30px;
+}
+
+.title-left{
+    color: rgb(155, 156, 156);
+    font-family: Roboto,Arial;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.merah-notif{
+    position: relative;
+    
+}
+
+.tiga{
+    position: absolute;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+    top: -3px;
+    right: -1px;
+    background-color: rgb(190, 9, 9);
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 11px;
+}
+
+
+
+
+
+.left{
+    display: flex;
+    align-items: center;
+   
+}
+
+.hamburger-icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 23px;
+    margin-right: 20px;
+}
+
+.youtube-logo{
+    width: 90px;
+    height: 90px;
+}
+
+
+/* tengah */
+.middle{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    align-items: center;
+    display: flex;
+}
+
+
+.search-header{
+    border-radius: 2px;
+    padding-left: 10px;
+    height: 35px;
+    flex: 1;
+    border: 1px solid rgb(204, 204, 204);
+    width: 0px;
+    max-width: 600px;
+    box-shadow: 0px 0px 3px rgba(204, 204, 204 ,0.5);
+}
+.search-header::placeholder{
+    font-size: 16px;
+    color: gray;
+    
+}
+
+/* --------- */
+
+.wadah-search,
+.wadah-voice-search,
+.create,
+.app,
+.merah-notif {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.wadah-search .hover-icon,
+.wadah-voice-search .hover-icon,
+.create .hover-icon,
+.app .hover-icon,
+.merah-notif .hover-icon{
+    
+    opacity: 0;
+    position: absolute;
+    bottom: -30px;
+    background-color: rgb(117, 114, 114);
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    transition: opacity 0.15;
+    pointer-events: none;
+    white-space: nowrap;
+
+}
+
+.wadah-search:hover .hover-icon,
+.wadah-voice-search:hover .hover-icon,
+.create:hover .hover-icon,
+.app:hover .hover-icon,
+.merah-notif:hover .hover-icon{
+    opacity: 1;
+}
+
+
+
+
+
+.wadah-search{
+    margin-right: 10px;
+    width: 60px;
+    height: 39px;
+    background-color: rgb(240, 239, 239);
+    border: 1px solid rgb(204, 204, 204);   
+}
+.icon-search{  
+    margin-top: 2px;  
+    width: 25px;
+    height: 25px;
+}
+.wadah-voice-search{
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(240, 239, 239);
+    border: none;
+    
+}
+.voice-search{
+    width: 25px;
+    height: 25px;
+}
+
+
+/* kanan */
+.right{
+    cursor: pointer;
+    width: 200px;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+.icon{
+    height: 26px;
+    width: 26px;
+}
+
+.icon-profil{
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+}
+

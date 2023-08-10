@@ -1,0 +1,56 @@
+.text-one{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text-two{
+    color: rgba(14, 134, 9, 0.808);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.button-cart{
+    background-color: rgb(247, 209, 24);
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button-cart:hover{
+    opacity: 0.9;
+}
+
+.button-cart:active{
+    opacity: 0.8;
+}
+
+.button-buy{
+    background-color:rgb(255, 164, 28) ;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button-buy:hover{
+    opacity: 0.9;
+}
+
+.button-buy:active{
+    opacity: 0.8;
+}
+
+
+
+
+.amazon-href{
+    color: rgb(0, 113,133);
+}
+
+.amazon-href:hover{
+    color: rgb(240, 57, 57);
+}

@@ -1,0 +1,149 @@
+p{
+    font-family: Roboto, Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 20px;
+}
+
+
+
+
+@media (max-width:750px){
+    .grid1{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:750px) and (min-width:1000px){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+@media (min-width:1000px){
+    .grid1{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+
+.thumbnail1{
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.container-thumbnail{
+    position: relative;
+    margin-bottom: 5px;
+    
+    
+}
+
+.time-video{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+
+}
+
+
+
+.grid2{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: top;
+
+}
+
+.profil-info{
+    position: relative;
+    
+   
+}
+
+.profil-info .hover-profil {
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    border-radius: 3px;
+    padding: 10px;
+    position: absolute;
+    bottom: -40px;
+    display: flex;
+    flex-direction: row;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 100;
+    
+    
+    
+}
+
+.profil-info:hover  .hover-profil{
+    opacity: 1; 
+    
+   
+     
+}
+
+
+.chanel-hover{
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+    pointer-events: none;
+}
+
+.columnrow{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
+
+
+
+
+
+
+.chanel1{
+    width: 40px;
+    border-radius: 20px;
+}
+
+.title{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 6px;
+}
+
+.name,.views{
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 18px;
+    color: rgb(96, 96, 96);
+}
+
+

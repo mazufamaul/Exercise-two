@@ -1,0 +1,288 @@
+body{
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 800px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container{
+    display: flex;
+   
+}
+
+.logotwitter{
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.twit{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    
+}
+
+.login{
+    flex: 1;
+}
+
+.text1{
+    margin-bottom: 40px;
+    margin-top: 70px;
+    
+}
+
+.trend{
+    font-size: 50px;
+    line-height: 90px;
+    font-weight: bold;
+}
+
+
+.text2{
+   margin-bottom: 10px;
+}
+
+.join{
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+/* login  */
+.email{
+    cursor: pointer;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid rgb(219, 214, 214);
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 290px;
+    margin-bottom: 10px;
+    transition: opacity 0.15s;
+}
+
+.email:hover{
+    opacity: 0.8;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    width: 40px;
+   
+}
+
+.hitam{
+    width: 30px;
+    height: 30px;
+    object-fit:cover ;
+    border-radius: 15px;
+}
+
+
+.satu{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.dua{
+    font-size: 12px;
+    color: grey;
+}
+
+.google{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    object-fit:cover ;
+    border-radius: 15px;
+}
+
+/* apple */
+
+.email-2{
+    cursor: pointer;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid rgb(219, 214, 214);
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 290px;
+    margin-bottom: 10px;
+    justify-content: center;
+    transition: opacity 0.15s;
+}
+
+
+.email-2:hover{
+    opacity: 0.6;
+}
+
+.image-2{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    
+}
+
+.hitam-2{
+    width: 25px;
+    height: 25px;
+    object-fit:cover ;
+    border-radius: 12px;
+    
+}
+
+
+.satu-2{
+    font-weight: bold;
+    font-size: 14px;
+
+    
+}
+
+/* bungkus */
+
+.bungkus{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 310px;
+   
+    
+}
+
+.wadah-atau{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.akun{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 155, 240);
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    width: 290px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    transition: opacity 0.15s;
+}
+
+.akun:hover{
+    opacity: 0.9;
+}
+
+
+.buat-akun{
+    color: white;
+    font-weight: bold;
+}
+
+.verifikasi{
+    margin-bottom: 80px
+}
+
+.verif{
+    font-size: 11px;
+}
+
+.biru{
+    cursor: pointer;
+    color:rgb(29, 155, 240)
+}
+
+/* sudah punya akun */
+
+.sudahadaakun{
+    margin-bottom: 30px;
+}
+
+.adaakun{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* masuk akun */
+
+.wadah-masuk{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    width: 290px;
+    border: 1px solid grey;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    transition: opacity 0.15s;
+}
+
+.wadah-masuk:hover{
+    opacity: 0.7;
+}
+
+.masuk-akun{
+    
+    color:rgb(29, 155, 240) ;
+    font-weight: bold;
+}
+
+@media (max-width:600px){
+    .twit{
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        
+        
+    }
+
+    .logotwitter{
+        position: absolute;
+        margin-left: 70px;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        width: 200px;
+        align-items: center;
+        justify-content: center;   
+    }
+
+    body{
+        padding-top: 120px;
+        margin-left: 100px;
+    }
+
+    
+}
